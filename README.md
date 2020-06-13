@@ -65,5 +65,5 @@ There are some reconstruction examples of the provided pretrained model.
 <img src="imgs/edge2handbags.png" width="50%"/>
 
 ## Reference
-- BicycleGAN <a href="https://github.com/junyanz/BicycleGAN">[github page]<\a>
+- BicycleGAN <a href="https://github.com/junyanz/BicycleGAN">[github page]</a>
 
