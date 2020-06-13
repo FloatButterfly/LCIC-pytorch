@@ -1,0 +1,1 @@
+python ./test.py --model zvae_gan --nz 64 --dataroot E://pku/dataset/BicycleGAN_dataset/edge2handbags/ --results_dir ./results/edges2handbags/ --checkpoints_dir ./pretrained_models/edges2shoes --epoch 80 --name zvae-nz64 --direction AtoB --loadSize 256 --fineSize 256 --input_nc 1 --num_test 200 --center_crop --no_flip --phase val
