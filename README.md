@@ -2,13 +2,27 @@
 
 The implementation of the conception compresssion framework proposed in the paper <a href="https://hpc.pku.edu.cn/docs/pdf/a20191230179.pdf">Layered Conceptual Image Compression Via Deep Semantic Synthesis (ICIP 2019)</a>.
 
+## Citation
+If you find it useful for your research, please cite as following:
+
+>@inproceedings{chang2019layered,
+  title={Layered Conceptual Image Compression Via Deep Semantic Synthesis},
+  author={Chang, Jianhui and Mao, Qi and Zhao, Zhenghui and Wang, Shanshe and Wang, Shiqi and Zhu, Hong and Ma, Siwei},
+  booktitle={2019 IEEE International Conference on Image Processing (ICIP)},
+  pages={694--698},
+  year={2019},
+  organization={IEEE}
+}
+
 ## Framework Pipeline
+The pipeline of the proposed framework is shown below.
+
 ![avatar](imgs/framework.PNG)
-The pipeline of the proposed framework are shown above.
 
 ## Results
+The proposed method demonstrates better perception quality under lower bit rate than traditional algorithms such as JPEG\JPEG2000\HM. (note that the dimension of latent codes is 8 here).
+
 ![avatar](imgs/comparison.PNG)
-The proposed method demonstrate better perception quality under lower bit rate than traditional algorithms such as JPEG\JPEG2000\HM.
 
 ## Dependencies
 
@@ -49,4 +63,7 @@ There are some reconstruction examples of the provided pretrained model.
 
 <img src="imgs/edges2shoes.jpg" width="50%"/>
 <img src="imgs/edge2handbags.png" width="50%"/>
+
+## Reference
+- BicycleGAN <a href="https://github.com/junyanz/BicycleGAN">[github page]<\a>
 
