@@ -30,10 +30,12 @@ Training datasets include the following datasets, please download one of the fol
 
 ## Training command
 You can follow the examples in ./scripts/train.sh.
+
 ``python train.py --dataroot=[path of training data] --phase=[name of datasets: train/val/test] --nz=[dimension of latent codes]``
 
 ## Testing command
-Please follow the examples in ./scripts/test.sh
+Please follow the examples in ./scripts/test.sh.
+
 ``python test.py --dataroot=[path of testing data] --results_dir=[path where you put the results images] --checkpoints_dir=[checkpoints_dir] --no_flip --epoch=[name of checkpoints: default latest]``
 
 ## Pretrained model
