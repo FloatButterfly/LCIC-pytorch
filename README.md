@@ -1,6 +1,6 @@
 # Layered Conceptual Image Compression Via Deep Semantic Synthesis
 
-The implementation of the conception compresssion framework proposed in the paper "Layered Conceptual Image Compression Via Deep Semantic Synthesis (ICIP 2019)"
+The implementation of the conception compresssion framework proposed in the paper <a href="https://hpc.pku.edu.cn/docs/pdf/a20191230179.pdf">Layered Conceptual Image Compression Via Deep Semantic Synthesis (ICIP 2019)<\a>.
 
 ## Framework Pipeline
 ![avatar](imgs/framework.PNG)
@@ -24,6 +24,7 @@ The proposed method demonstrate better perception quality under lower bit rate t
 ## Prepare Data
 Prepare paired data(image-edge pairs):
 Training datasets include the following datasets, please download one of the following training datasets, and unzip the files.
+
 1. edges2handbags: http://efrosgans.eecs.berkeley.edu/pix2pix/datasets/edges2handbags.tar.gz
 2. edges2shoes: http://efrosgans.eecs.berkeley.edu/pix2pix/datasets/edges2shoes.tar.gz
 
@@ -38,9 +39,11 @@ Please follow the examples in ./scripts/test.sh
 ## Pretrained model
 You can find the pretrained model which is trained 80 epochs with combined dataset of edges2shoes and edges2handbags.
 The dimension of texture latent codes is set to 64.
+
 - Pretrained model: https://disk.pku.edu.cn:443/link/07FC94DAC259C9AEC85ADEC747A8BC3E
 
 ## Reconstrution examples
 There are some reconstruction examples of the provided pretrained model.
-![avatar](imgs/edges2shoes.jpg){:height="70%" width="70%"}
-![avatar](imgs/edge2handbags.png){:height="70%" width="70%"}
+<img src="imgs/edges2shoes.jpg" width="70%"/>
+<img src="imgs/edge2handbags.png" width="70%"/>
+
