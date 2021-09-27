@@ -2,6 +2,10 @@
 
 The implementation of the conception compresssion framework proposed in the paper <a href="https://hpc.pku.edu.cn/docs/pdf/a20191230179.pdf">Layered Conceptual Image Compression Via Deep Semantic Synthesis (ICIP 2019)</a>.
 
+The codes of extended version of paper entitled <a href="https://arxiv.org/pdf/2011.04976.pdf">Conceptual Compression via Deep Structure and
+Texture Synthesis
+</a> can be found at <https://github.com/changjianhui/LCIC_plus>.
+
 ## Citation
 If you find it useful for your research, please cite as following:
 
