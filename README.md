@@ -60,7 +60,7 @@ Please follow the examples in ./scripts/test.sh.
 You can find the pretrained model which is trained 80 epochs with combined dataset of edges2shoes and edges2handbags.
 The dimension of texture latent codes is set to 64.
 
-- Pretrained model: https://disk.pku.edu.cn:443/link/07FC94DAC259C9AEC85ADEC747A8BC3E
+- Pretrained model: https://disk.pku.edu.cn:443/link/B12DC2B63BD0A9271617988465F93AD2
 
 ## Reconstrution examples
 There are some reconstruction examples of the provided pretrained model.
