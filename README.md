@@ -4,7 +4,7 @@ The implementation of the conception compresssion framework proposed in the pape
 
 The codes of extended version of paper entitled <a href="https://arxiv.org/pdf/2011.04976.pdf">Conceptual Compression via Deep Structure and
 Texture Synthesis
-</a> can be found at <https://github.com/changjianhui/LCIC_plus>.
+</a> can be found at <https://github.com/FloatButterfly/LCIC_plus>.
 
 ## Citation
 If you find it useful for your research, please cite as following:
